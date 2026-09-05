@@ -15,8 +15,8 @@ TARGET_AMOUNTS = {300.0, 1000.0, 3200.0, 5000.0}
 
 # Cooldown between posts (in seconds) to avoid spamming the channel:
 # E.g., 351 to 18000 seconds = 3 to 300 minutes between proofs
-MIN_COOLDOWN_SEC = 300
-MAX_COOLDOWN_SEC = 1800
+MIN_COOLDOWN_SEC = 350
+MAX_COOLDOWN_SEC = 18000
 
 # Reject any block older than this (180s = 3 minutes max age)
 MAX_BLOCK_AGE_SEC = 180
